@@ -1,0 +1,124 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hi there!", "Hello! How can I support you today?", "Hey! I’m here for you."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "talk to you later"],
+      "responses": ["Take care!", "Goodbye! Stay positive.", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot"],
+      "responses": ["You're very welcome!", "Glad I could help!", "Anytime! ❤️"]
+    },
+    {
+      "tag": "feeling_good",
+      "patterns": ["I'm feeling good", "I'm happy", "doing well", "I'm fine"],
+      "responses": ["That's wonderful to hear! 😊", "Keep that smile going!", "Glad you're feeling good!"]
+    },
+    {
+      "tag": "feeling_bad",
+      "patterns": ["I'm sad", "I'm upset", "feeling down", "not okay", "I'm anxious"],
+      "responses": ["I'm here for you. Want to talk about it?", "It's okay to not be okay. I'm listening.", "You're not alone — tell me more."]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["I need motivation", "I'm feeling low", "motivate me", "say something positive"],
+      "responses": ["You are stronger than you think. 💪", "Even the darkest night will end and the sun will rise.", "Take a deep breath — you're doing your best."]
+    },
+    {
+      "tag": "stress",
+      "patterns": ["I'm stressed", "too much pressure", "feeling stressed", "can't relax"],
+      "responses": ["Try taking a short break and deep breaths. 🧘", "Remember, stress is temporary. You've got this.", "Want to talk about what's causing the stress?"]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": ["I have anxiety", "feeling anxious", "I'm panicking", "can't calm down"],
+      "responses": ["You're not alone — let's work through this.", "Try grounding yourself. Can you name 5 things you see?", "Anxiety will pass. You're safe."]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["mental health", "feeling depressed", "sad all the time", "need help mentally"],
+      "responses": ["Mental health matters. Talking about it is a great first step.", "You're not alone. It's okay to reach out.", "I'm here to support you — how can I help?"]
+    },
+    {
+      "tag": "bored",
+      "patterns": ["I'm bored", "nothing to do", "feeling dull", "any ideas?"],
+      "responses": ["Try listening to music, taking a walk, or journaling.", "How about reading or learning something new?", "You could try meditation or a hobby you enjoy!"]
+    },
+    {
+      "tag": "hobbies",
+      "patterns": ["suggest hobbies", "what can I do for fun", "fun activities", "things to try"],
+      "responses": ["Try sketching, journaling, learning coding, or gardening!", "Hobbies can be a great stress reliever — do you like music or art?"]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": ["study tips", "how to focus", "can't concentrate", "study motivation"],
+      "responses": ["Break your work into chunks with breaks in between.", "Try the Pomodoro technique. 25 min study, 5 min break!", "Minimize distractions and reward yourself after study."]
+    },
+    {
+      "tag": "self_love",
+      "patterns": ["self love", "confidence", "love myself", "feel worthless"],
+      "responses": ["You are valuable and enough just as you are.", "Be kind to yourself. You deserve love too.", "Self-love is not selfish. It's essential. ❤️"]
+    },
+    {
+      "tag": "panic_attack",
+      "patterns": ["panic attack", "help me", "can't breathe", "I'm scared"],
+      "responses": ["Try focusing on your breathing. Inhale... Exhale...", "You're safe. You're okay. I'm with you.", "Ground yourself — name 5 things you see, 4 you feel..."]
+    },
+    {
+      "tag": "angry",
+      "patterns": ["I'm angry", "I'm frustrated", "I want to scream", "I'm mad"],
+      "responses": ["It's okay to feel angry. Want to vent?", "Take a breath. Let's talk about it.", "I'm here if you want to let it out."]
+    },
+    {
+      "tag": "lonely",
+      "patterns": ["I'm lonely", "no one understands me", "I feel alone", "nobody cares"],
+      "responses": ["You’re not alone — I’m here for you. 🤝", "You're cared for, even if it doesn’t feel like it right now.", "Talking is a brave first step."]
+    },
+    {
+      "tag": "life_purpose",
+      "patterns": ["what is my purpose", "life feels meaningless", "why am I here"],
+      "responses": ["You matter. Your presence makes a difference.", "Purpose takes time — start with small things you enjoy.", "Even little steps lead to big changes. 🌱"]
+    },
+    {
+      "tag": "relationship",
+      "patterns": ["relationship issues", "breakup", "love problems", "my partner left me"],
+      "responses": ["Breakups are hard. Allow yourself to heal.", "You deserve someone who values you.", "I'm here if you want to talk about your feelings."]
+    },
+    {
+      "tag": "future_worry",
+      "patterns": ["worried about future", "uncertain future", "scared of what’s next"],
+      "responses": ["The future can feel scary — but you are capable of great things.", "One step at a time. You’ve got this.", "Stay grounded in today. Tomorrow will come."]
+    },
+    {
+      "tag": "career_confusion",
+      "patterns": ["career confusion", "job pressure", "don’t know what to do", "career path"],
+      "responses": ["It’s okay to not have it all figured out.", "Explore your interests and talk to mentors.", "You’ll find your way — just keep moving forward."]
+    },
+    {
+      "tag": "inspiration",
+      "patterns": ["inspire me", "quote", "life quote", "give me a boost"],
+      "responses": ["Believe in yourself and all that you are.", "Difficult roads often lead to beautiful destinations.", "You are your only limit. 🌟"]
+    },
+    {
+      "tag": "general_support",
+      "patterns": ["help me", "need support", "need help", "I need to talk"],
+      "responses": ["I’m here for you — talk to me.", "You can share whatever’s on your mind.", "Let’s get through this together."]
+    },
+    {
+      "tag": "ai_question",
+      "patterns": ["are you real", "who made you", "are you a robot"],
+      "responses": ["I’m an AI trained to help with emotional support.", "I may be virtual, but I care about how you feel."]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["who are you", "what is your name", "tell me about yourself"],
+      "responses": ["I’m your mental wellness chatbot. 😊", "I’m here to support and listen to you."]
+    }
+  ]
+}
